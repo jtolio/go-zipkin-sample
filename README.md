@@ -20,3 +20,7 @@ is helpful), run all three services (`./rand & ./ui & ./collector &`)
 
 When you make a request to `http://localhost:8079`, a full Zipkin trace will
 be sent to your Zipkin collector.
+
+### Screenshot
+
+![Screenshot](/screenshot.png)
