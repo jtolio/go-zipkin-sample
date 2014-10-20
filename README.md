@@ -11,12 +11,12 @@ spans to the collector service over UDP, which sends the spans to Zipkin
 directly.
 
 First, build the following binaries:
-* github.com/jtolds/go-zipkin-sample/bin/collector
-* github.com/jtolds/go-zipkin-sample/bin/rand
-* github.com/jtolds/go-zipkin-sample/bin/ui
+* `github.com/jtolds/go-zipkin-sample/bin/collector`
+* `github.com/jtolds/go-zipkin-sample/bin/rand`
+* `github.com/jtolds/go-zipkin-sample/bin/ui`
 
 Then, after starting Zipkin locally (https://github.com/itszero/docker-zipkin
-is helpful), run all three services (./rand & ./ui & ./collector &)
+is helpful), run all three services (`./rand & ./ui & ./collector &`)
 
-When you make a request to http://localhost:8079, a full Zipkin trace will
+When you make a request to `http://localhost:8079`, a full Zipkin trace will
 be sent to your Zipkin collector.
