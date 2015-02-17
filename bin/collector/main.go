@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/spacemonkeygo/monitor/trace"
+	"gopkg.in/spacemonkeygo/monitor.v1/trace"
 	"github.com/spacemonkeygo/spacelog"
 )
 

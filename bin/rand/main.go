@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"code.google.com/p/go.net/context"
-	"github.com/spacemonkeygo/monitor/trace"
-	"github.com/spacemonkeygo/monitor/trace/gen-go/zipkin"
+	"golang.org/x/net/context"
+	"gopkg.in/spacemonkeygo/monitor.v1/trace"
+	"gopkg.in/spacemonkeygo/monitor.v1/trace/gen-go/zipkin"
 )
 
 type handler struct{}
